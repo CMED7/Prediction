@@ -5,8 +5,8 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 
 # Read data from an Excel file
-df = pd.read_excel('D:/data/ /BEN TALEB MOHAMED/troisieme annee faculte/ml/Nouveau Feuille de calcul Microsoft Excel.xlsx')
-#df = pd.read_excel('C:/Users/Lenovo/Desktop/Nouveau dossier (4)/Nouveau Feuille de calcul Microsoft Excel.xlsx')
+#df = pd.read_excel('D:/data/ /BEN TALEB MOHAMED/troisieme annee faculte/ml/Nouveau Feuille de calcul Microsoft Excel.xlsx')
+df = pd.read_excel('C:/Users/Lenovo/Desktop/Nouveau dossier (4)/Nouveau Feuille de calcul Microsoft Excel.xlsx')
 
 # Separate features (X) and target variable (y)
 X = df[['Square Footage']]
