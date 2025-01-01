@@ -1,4 +1,5 @@
 Linear Regression Model for Real Estate Pricing
+
 This project implements a simple linear regression model to predict real estate prices based on square footage. The model is built using Python and libraries like pandas, NumPy, and scikit-learn. The dataset is read from an Excel file, and the project demonstrates the entire pipeline, from data preprocessing to model training and evaluation.
 
 Features
